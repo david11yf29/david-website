@@ -6,20 +6,78 @@
 
 .sidebar__header {
   background-color: aqua;
-  min-height: 25vh;
+  min-height: 30vh;
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar__header > img {
-  width: 20%;
-  height: 20%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 100%;
+}
+
+.sidebar__header > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 5%;
 }
 
 .sidebar__content {
-  background-color: aquamarine;
-  min-height: 60vh;
+  /* background-color: aquamarine; */
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar__content > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 10% 0;
+  color: rgb(61, 61, 61);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.sidebar__content > p::after {
+  content: " ";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+.sidebar__content > p:hover::after {
+  width: 100%;
 }
 
 .sidebar__footer {
+  font-family: "Poppins", sans-serif;
   background-color: brown;
   height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar__footer > h2 {
+  font-size: 1em;
+}
+
+.sidebar__footer > p {
+  font-size: 0.8em;
+}
+
+.sidebar__footer__icon {
+  display: flex;
+  justify-content: flex-end;
 }
