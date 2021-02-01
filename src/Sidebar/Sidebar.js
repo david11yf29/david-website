@@ -26,10 +26,10 @@ const Sidebar = () => {
         <h2>Copyright © 2019 built by David Lin</h2>
         <p>david11yf29@gmail.com</p>
         <div className="sidebar__footer__icon">
-          <GitHubIcon />
-          <LinkedInIcon />
-          <InstagramIcon />
-          <FacebookIcon />
+          <GitHubIcon className="iconStyle" />
+          <LinkedInIcon className="iconStyle" />
+          <InstagramIcon className="iconStyle" />
+          <FacebookIcon className="iconStyle" />
         </div>
       </div>
     </div>
