@@ -9,6 +9,11 @@
   min-height: 25vh;
 }
 
+.sidebar__header > img {
+  width: 20%;
+  height: 20%;
+}
+
 .sidebar__content {
   background-color: aquamarine;
   min-height: 60vh;
@@ -16,5 +21,5 @@
 
 .sidebar__footer {
   background-color: brown;
-  min-height: 15vh;
+  height: 15vh;
 }

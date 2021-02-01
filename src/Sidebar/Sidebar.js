@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar__header">
-        <h2>Picture Here</h2>
+        <img src="./../image/IMG_3675.JPG" alt="profile" />
       </div>
       <div className="sidebar__content">
         <p>Home</p>
