@@ -23,7 +23,7 @@ const Sidebar = () => {
         <p>Contact</p>
       </div>
       <div className="sidebar__footer">
-        <h2>Copyright © 2019 built by David Lin</h2>
+        <h2>Copyright © 2021 built by David Lin</h2>
         <p>david11yf29@gmail.com</p>
         <div className="sidebar__footer__icon">
           <GitHubIcon className="iconStyle" />
