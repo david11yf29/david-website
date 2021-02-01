@@ -1,9 +1,13 @@
+import React from "react";
 import "./App.css";
 
-function App() {
+import Sidebar from "./Sidebar/Sidebar";
+
+const App = () => {
   return (
     <div className="App">
       {/* Sidebar */}
+      <Sidebar />
 
       {/* Homepage */}
       <section />
@@ -24,6 +28,6 @@ function App() {
       <section />
     </div>
   );
-}
+};
 
 export default App;
