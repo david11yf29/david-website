@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 
 import Sidebar from "./Sidebar/Sidebar";
+import Homepage from "./Homepage/Homepage";
+import About from "./About/About";
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
 
           <div className="main-right">
             {/* Homepage */}
+            <Homepage />
             {/* About Me */}
+            <About />
           </div>
         </div>
       </div>
