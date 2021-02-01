@@ -7,14 +7,16 @@ const App = () => {
   return (
     <div className="App">
       <div className="billboard">
-        <div>
-          {/* Sidebar */}
-          <Sidebar />
-        </div>
+        <div className="main">
+          <div className="main-left">
+            {/* Sidebar */}
+            <Sidebar />
+          </div>
 
-        <div>
-          {/* Homepage */}
-          {/* About Me */}
+          <div className="main-right">
+            {/* Homepage */}
+            {/* About Me */}
+          </div>
         </div>
       </div>
     </div>
