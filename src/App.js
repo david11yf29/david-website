@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 
+import Beach from "./img/beach.jpg";
+
 import Sidebar from "./Sidebar/Sidebar";
 import Homepage from "./Homepage/Homepage";
 import About from "./About/About";
@@ -16,10 +18,13 @@ const App = () => {
           </div>
 
           <div className="main-right">
-            {/* Homepage */}
-            <Homepage />
-            {/* About Me */}
-            <About />
+            <div className="main-right-pic">
+              <img src={Beach} alt="beach" />
+            </div>
+            <div className="main-right-content">
+              {/* Homepage */}
+              <Homepage />
+            </div>
           </div>
         </div>
       </div>
@@ -28,6 +33,9 @@ const App = () => {
 };
 
 export default App;
+
+// About Me
+// <About />
 
 // {/* Project*/}
 // <section />

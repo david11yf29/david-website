@@ -10,4 +10,25 @@
 
 .main-right {
   flex: 0.77;
+  display: flex;
+  height: 100vh;
+}
+
+.main-right-pic {
+  width: 50%;
+  height: 100%;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.main-right-pic > img {
+  width: 600px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-right-content {
+  min-width: 50%;
+  background-color: aquamarine;
 }
