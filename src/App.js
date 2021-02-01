@@ -6,28 +6,30 @@ import Sidebar from "./Sidebar/Sidebar";
 const App = () => {
   return (
     <div className="App">
-      {/* Sidebar */}
-      <Sidebar />
+      <div className="billboard">
+        {/* Sidebar */}
+        <Sidebar />
 
-      {/* Homepage */}
-      <section />
+        {/* Homepage */}
+        <section />
 
-      {/* About Me */}
-      <section />
-
-      {/* Project*/}
-      <section />
-
-      {/* My Blog */}
-      <section />
-
-      {/* Photos of me */}
-      <section />
-
-      {/* Contact */}
-      <section />
+        {/* About Me */}
+        <section />
+      </div>
     </div>
   );
 };
 
 export default App;
+
+// {/* Project*/}
+// <section />
+
+// {/* My Blog */}
+// <section />
+
+// {/* Photos of me */}
+// <section />
+
+// {/* Contact */}
+// <section />
