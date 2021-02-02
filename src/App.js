@@ -1,7 +1,6 @@
 import React from "react";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
-
-import Beach from "./img/beach.jpg";
 
 import Sidebar from "./Sidebar/Sidebar";
 import Homepage from "./Homepage/Homepage";
@@ -18,14 +17,23 @@ const App = () => {
           </div>
 
           <div className="main-right">
+            <Switch>
+              <Route exact path="/" component={Homepage} />
+              <Route path="/about" component={About} />
+            </Switch>
+          </div>
+
+          {/* <div className="main-right">
             <div className="main-right-pic">
               <img src={Beach} alt="beach" />
             </div>
             <div className="main-right-content">
-              {/* Homepage */}
-              <Homepage />
+              <Switch>
+                <Route exact path="/" component={Homepage} />
+                <Route path="/about" component={About} />
+              </Switch>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

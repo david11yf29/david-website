@@ -1,37 +1,53 @@
 .homepage {
   display: flex;
-  flex-direction: column;
-  margin: 10%;
   font-family: "Poppins", sans-serif;
-  /* align-items: center; */
 }
 
-.homepage-header {
+.homepage__left {
+  height: 100vh;
+  overflow: hidden;
+  width: 600px;
+}
+
+.homepage__left > img {
+  height: 100%;
+  /* width: 700px; */
+}
+
+.homepage__right {
+  box-sizing: border-box;
+  width: 55%;
+  height: 100%;
+  padding: 5% 3% 5% 5%;
+  /* height: 500px;
+  max-width: 55%; */
+}
+
+.homepage__header {
   box-sizing: border-box;
   font-size: 1.1em;
   height: 30vh;
-  padding: 10% 10% 10% 0;
-  /* background-color: aqua; */
+  padding: 10% 5% 5% 5%;
+  /* background-color: aquamarine; */
 }
 
-.homepage-header > h1 > span {
+.homepage__header > h1 > span {
   color: #ccb78f;
 }
 
-.homepage-content {
-  /* background-color: aquamarine; */
-  padding: 10% 10% 10% 0;
-  height: 50vh;
+.homepage__content {
+  /* background-color: aqua; */
+  padding: 5%;
+  height: 40vh;
 }
 
-.homepage-content > p {
+.homepage__content > p {
   color: #999999;
   line-height: 4vh;
 }
 
-.homepage-content > span {
+.homepage__content > span {
   font-family: "Parisienne", cursive;
   font-size: 2em;
   font-style: italic;
-  /* font-weight: ; */
 }
