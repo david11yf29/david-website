@@ -4,6 +4,7 @@ import "./App.css";
 
 import Sidebar from "./Sidebar/Sidebar";
 import Homepage from "./Homepage/Homepage";
+import Projects from "./Projects/Projects";
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
             <Switch>
               {/* Homepage */}
               <Route exact path="/" component={Homepage} />
+              {/* Projects */}
+              <Route path="/projects" component={Projects} />
             </Switch>
           </div>
         </div>
