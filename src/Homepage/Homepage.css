@@ -1,0 +1,36 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  font-family: "Poppins", sans-serif;
+  /* align-items: center; */
+}
+
+.homepage-header {
+  box-sizing: border-box;
+  font-size: 1.1em;
+  height: 30vh;
+  padding: 10% 10% 10% 0;
+  background-color: aqua;
+}
+
+.homepage-header > h1 > span {
+  color: #ccb78f;
+}
+
+.homepage-content {
+  background-color: aquamarine;
+  height: 50vh;
+}
+
+.homepage-content > p {
+  opacity: 0.7;
+  line-height: 4vh;
+}
+
+.homepage-content > span {
+  font-family: "Parisienne", cursive;
+  font-size: 2em;
+  font-style: italic;
+  /* font-weight: ; */
+}

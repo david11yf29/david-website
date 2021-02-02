@@ -12,10 +12,11 @@
   flex: 0.77;
   display: flex;
   height: 100vh;
+  /* background-color: blue; */
 }
 
 .main-right-pic {
-  width: 45%;
+  /* min-width: 5%; */
   height: 100%;
   overflow: hidden;
 }
@@ -26,5 +27,5 @@
 }
 
 .main-right-content {
-  min-width: 50%;
+  max-width: 55%;
 }
