@@ -19,8 +19,9 @@ const Homepage = () => {
           Hi, I'm David. Currently working at Lam Research as a Process Engineer
           related in the semiconductor industry in Hsinchu City, Taiwan. In
           January 2019, I began to learn coding on multiple platforms like
-          Udemy, Youtube, and Freecodecamp focus in Frond-End Development. This
-          website is the first project to achieve my first goal.
+          Udemy, Youtube, and Freecodecamp focus in Frond-End Development.
+          Really enjoy codeing and making cool stuff. This is my personal
+          website to show you my beautiful life.
         </p>
         <br />
         <span>Fight on</span>

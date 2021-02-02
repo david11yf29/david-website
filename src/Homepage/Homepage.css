@@ -11,7 +11,7 @@
   font-size: 1.1em;
   height: 30vh;
   padding: 10% 10% 10% 0;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .homepage-header > h1 > span {
@@ -19,7 +19,7 @@
 }
 
 .homepage-content {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 50vh;
 }
 
