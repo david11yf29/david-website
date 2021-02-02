@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import profilePic from "../img/profile.png";
 import "./Sidebar.css";
 
@@ -15,12 +16,21 @@ const Sidebar = () => {
         <p>David Lin</p>
       </div>
       <div className="sidebar__content">
-        <p>Home</p>
-        <p>About Me</p>
-        <p>Project</p>
-        <p>Blog</p>
-        <p>Photos</p>
-        <p>Contact</p>
+        <Link className="sidebar__content__item" to="/">
+          <p>Home</p>
+        </Link>
+        <Link className="sidebar__content__item" to="/">
+          <p>Projects</p>
+        </Link>
+        <Link className="sidebar__content__item" to="/">
+          <p>Blog</p>
+        </Link>
+        <Link className="sidebar__content__item" to="/">
+          <p>Photos</p>
+        </Link>
+        <Link className="sidebar__content__item" to="/">
+          <p>Contact</p>
+        </Link>
       </div>
       <div className="sidebar__footer">
         <h2>

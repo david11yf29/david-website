@@ -4,7 +4,6 @@ import "./App.css";
 
 import Sidebar from "./Sidebar/Sidebar";
 import Homepage from "./Homepage/Homepage";
-import About from "./About/About";
 
 const App = () => {
   return (
@@ -18,22 +17,10 @@ const App = () => {
 
           <div className="main-right">
             <Switch>
+              {/* Homepage */}
               <Route exact path="/" component={Homepage} />
-              <Route path="/about" component={About} />
             </Switch>
           </div>
-
-          {/* <div className="main-right">
-            <div className="main-right-pic">
-              <img src={Beach} alt="beach" />
-            </div>
-            <div className="main-right-content">
-              <Switch>
-                <Route exact path="/" component={Homepage} />
-                <Route path="/about" component={About} />
-              </Switch>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

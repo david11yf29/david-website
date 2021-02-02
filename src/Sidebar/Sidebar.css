@@ -37,8 +37,9 @@
   align-items: center;
 }
 
-.sidebar__content > p {
+.sidebar__content__item {
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
   font-weight: bold;
   font-size: 0.9em;
   margin: 10% 0;
@@ -47,13 +48,13 @@
   letter-spacing: 1px;
 }
 
-.sidebar__content > p:hover {
+.sidebar__content__item:hover {
   color: black;
   transform: scale(1.05);
   transition: 300ms;
 }
 
-.sidebar__content > p::after {
+.sidebar__content__item::after {
   content: " ";
   width: 0px;
   height: 1px;
@@ -62,7 +63,7 @@
   transition: 300ms;
 }
 
-.sidebar__content > p:hover::after {
+.sidebar__content__item:hover::after {
   width: 100%;
 }
 
