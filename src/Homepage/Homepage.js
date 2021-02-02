@@ -17,6 +17,7 @@ const Homepage = () => {
               A <br />
               Front-End Developer.
             </span>{" "}
+            <br />
             Love cool website
           </h1>
         </div>

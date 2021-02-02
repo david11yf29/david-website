@@ -19,16 +19,16 @@ const Sidebar = () => {
         <Link className="sidebar__content__item" to="/">
           <p>Home</p>
         </Link>
-        <Link className="sidebar__content__item" to="/">
+        <Link className="sidebar__content__item" to="/projects">
           <p>Projects</p>
         </Link>
-        <Link className="sidebar__content__item" to="/">
+        <Link className="sidebar__content__item" to="/blog">
           <p>Blog</p>
         </Link>
-        <Link className="sidebar__content__item" to="/">
+        <Link className="sidebar__content__item" to="/photos">
           <p>Photos</p>
         </Link>
-        <Link className="sidebar__content__item" to="/">
+        <Link className="sidebar__content__item" to="/contact">
           <p>Contact</p>
         </Link>
       </div>
