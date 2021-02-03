@@ -39,10 +39,26 @@ const Sidebar = () => {
         </h2>
         <p>david11yf29@gmail.com</p>
         <div className="sidebar__footer__icon">
-          <GitHubIcon className="iconStyle" />
-          <LinkedInIcon className="iconStyle" />
-          <InstagramIcon className="iconStyle" />
-          <FacebookIcon className="iconStyle" />
+          <GitHubIcon
+            onClick={() => window.open("https://github.com/david11yf29")}
+            className="iconStyle"
+          />
+          <LinkedInIcon
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/david11yf29/")
+            }
+            className="iconStyle"
+          />
+          <InstagramIcon
+            onClick={() =>
+              window.open("https://www.instagram.com/david11yf29/")
+            }
+            className="iconStyle"
+          />
+          <FacebookIcon
+            onClick={() => window.open("https://www.facebook.com/david11yf29")}
+            className="iconStyle"
+          />
         </div>
       </div>
     </div>
