@@ -1,6 +1,7 @@
 .projects {
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .projects__container {
