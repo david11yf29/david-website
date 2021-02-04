@@ -14,7 +14,14 @@ const Blogs = () => {
       <Header title="Blogs" />
       <div className="blogs__container">
         <div className="blogs__container__square">
-          <div className="blogs__container__square__img">
+          <div
+            className="blogs__container__square__img"
+            onClick={() =>
+              window.open(
+                "https://medium.com/@yuanjungdavidlin/last-updated-01-29-2019-87c3b60d19e"
+              )
+            }
+          >
             <img src={food1} alt="Food1" />
           </div>
           <div className="blogs__container__square__content">
@@ -28,7 +35,14 @@ const Blogs = () => {
           </div>
         </div>
         <div className="blogs__container__square">
-          <div className="blogs__container__square__img">
+          <div
+            className="blogs__container__square__img"
+            onClick={() =>
+              window.open(
+                "https://medium.com/@yuanjungdavidlin/%E7%BE%8E%E5%9C%8B%E7%95%99%E5%AD%B8%E5%BF%83%E5%BE%97-497ab2c6b7dd"
+              )
+            }
+          >
             <img src={usc} alt="usc" />
           </div>
           <div className="blogs__container__square__content">
@@ -43,7 +57,14 @@ const Blogs = () => {
           </div>
         </div>
         <div className="blogs__container__square">
-          <div className="blogs__container__square__img">
+          <div
+            className="blogs__container__square__img"
+            onClick={() =>
+              window.open(
+                "https://medium.com/@yuanjungdavidlin/2019-%E5%B9%B4%E5%BA%A6%E5%9B%9E%E9%A1%A7-5c99e64121e9"
+              )
+            }
+          >
             <img src={workout} alt="workout" />
           </div>
           <div className="blogs__container__square__content">
