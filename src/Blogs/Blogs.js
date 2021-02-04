@@ -4,6 +4,10 @@ import "./Blogs.css";
 import Header from "../utilities/Header/Header";
 import Button from "../utilities/Button/Button";
 
+import food1 from "../img/food1.jpg";
+import usc from "../img/usc.jpg";
+import workout from "../img/workout.jpg";
+
 const Blogs = () => {
   return (
     <div className="blogs">
@@ -11,43 +15,45 @@ const Blogs = () => {
       <div className="blogs__container">
         <div className="blogs__container__square">
           <div className="blogs__container__square__img">
-            <img src="" alt="" />
-            <span>APRIL 14, 2018</span>
+            <img src={food1} alt="Food1" />
           </div>
           <div className="blogs__container__square__content">
+            <span>Jan. 29, 2019 | BODY BUILDING</span>
             <h2>Body Building</h2>
             <p>
-              Having a awesome shape is important for everyone, no only for
-              confident but also for goodlife. I will teach you step by step to
-              achieve your goal.
+              No doubt that workout makes my life more happier. In order to make
+              progress more efficient. How to cook and how to pick clean food
+              especially protein is crucial for body building.
             </p>
           </div>
         </div>
         <div className="blogs__container__square">
           <div className="blogs__container__square__img">
-            <img src="" alt="" />
-            <span>APRIL 14, 2018</span>
+            <img src={usc} alt="usc" />
           </div>
           <div className="blogs__container__square__content">
-            <h2>Body Building</h2>
+            <span>Feb. 12, 2019 | STUDY ABROAD</span>
+            <h2>Study at USC</h2>
             <p>
-              Having a awesome shape is important for everyone, no only for
-              confident but also for goodlife. I will teach you step by step to
-              achieve your goal.
+              Having a wonderful journey in USC with lots of lovely friend. At
+              the sametime, enjoying leisure life such as watching NFL,
+              traveling across the United States, make fun of roommates is also
+              the best memory in my life.
             </p>
           </div>
         </div>
         <div className="blogs__container__square">
           <div className="blogs__container__square__img">
-            <img src="" alt="" />
-            <span>APRIL 14, 2018</span>
+            <img src={workout} alt="workout" />
           </div>
           <div className="blogs__container__square__content">
-            <h2>Body Building</h2>
+            <span>Jan 17, 2020 | My Life</span>
+            <h2>Retrospect 2019</h2>
             <p>
-              Having a awesome shape is important for everyone, no only for
-              confident but also for goodlife. I will teach you step by step to
-              achieve your goal.
+              In 2019, inflation impact our saving year by year. Learning how to
+              invest your money properly is important than how much you earn.
+              Invest in ETF is the best method for risk diversification such as
+              VTI and VT.
             </p>
           </div>
         </div>
