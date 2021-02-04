@@ -1,5 +1,7 @@
 .header {
   background-color: #ccb78f;
+  color: white;
+  letter-spacing: 3px;
   height: 20vh;
   display: flex;
   justify-content: center;
