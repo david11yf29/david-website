@@ -1,0 +1,29 @@
+.blogs {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  height: 100%;
+}
+
+.blogs__container {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  padding: 5%;
+  gap: 5%;
+}
+
+.blogs__container__square {
+  background-color: aqua;
+  width: 20vw;
+  height: 400px;
+}
+
+.blogs__footer {
+  /* background-color: blueviolet; */
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

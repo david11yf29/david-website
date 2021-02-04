@@ -22,7 +22,7 @@ const Sidebar = () => {
         <Link className="sidebar__content__item" to="/projects">
           <p>Projects</p>
         </Link>
-        <Link className="sidebar__content__item" to="/blog">
+        <Link className="sidebar__content__item" to="/blogs">
           <p>Blog</p>
         </Link>
         <Link className="sidebar__content__item" to="/photos">

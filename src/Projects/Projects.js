@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../utilities/Header/Header";
 import "./Projects.css";
 
 import LinkIcon from "@material-ui/icons/Link";
@@ -8,6 +7,8 @@ import spotify from "../img/spotify.png";
 import linkedin from "../img/linkedin.png";
 import faceRecog from "../img/face-recog.png";
 import jotto from "../img/jotto.png";
+
+import Header from "../utilities/Header/Header";
 
 const Projects = () => {
   return (

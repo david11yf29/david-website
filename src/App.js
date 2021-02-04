@@ -5,6 +5,7 @@ import "./App.css";
 import Sidebar from "./Sidebar/Sidebar";
 import Homepage from "./Homepage/Homepage";
 import Projects from "./Projects/Projects";
+import Blogs from "./Blogs/Blogs";
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
               <Route exact path="/" component={Homepage} />
               {/* Projects */}
               <Route path="/projects" component={Projects} />
+              {/* Blogs */}
+              <Route path="/blogs" component={Blogs} />
             </Switch>
           </div>
         </div>
