@@ -1,0 +1,16 @@
+.photos__container {
+  background-color: aqua;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80vw;
+  height: 80vw;
+  overflow: scroll;
+  padding: 5% 0;
+  background-size: cover;
+}
+
+.photos__container > img {
+  width: 25vw;
+  height: 25vw;
+}
