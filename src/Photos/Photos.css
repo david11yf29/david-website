@@ -1,16 +1,18 @@
 .photos__container {
   background-color: aqua;
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80vw;
-  height: 80vw;
+  width: 70vw;
+  height: 80vh;
   overflow: scroll;
-  padding: 5% 0;
-  background-size: cover;
+  padding: 5%;
 }
 
 .photos__container > img {
-  width: 25vw;
-  height: 25vw;
+  background-color: black;
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  margin: 1%;
 }
