@@ -25,8 +25,8 @@ const Sidebar = () => {
         <Link className="sidebar__content__item" to="/blogs">
           <p>Blog</p>
         </Link>
-        <Link className="sidebar__content__item" to="/photos">
-          <p>Photos</p>
+        <Link className="sidebar__content__item" to="/educations">
+          <p>Educations</p>
         </Link>
         <Link className="sidebar__content__item" to="/contact">
           <p>Contact</p>

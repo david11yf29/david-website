@@ -6,7 +6,6 @@ import Sidebar from "./Sidebar/Sidebar";
 import Homepage from "./Homepage/Homepage";
 import Projects from "./Projects/Projects";
 import Blogs from "./Blogs/Blogs";
-import Photos from "./Photos/Photos";
 
 const App = () => {
   return (
@@ -26,8 +25,6 @@ const App = () => {
               <Route path="/projects" component={Projects} />
               {/* Blogs */}
               <Route path="/blogs" component={Blogs} />
-              {/* Photos */}
-              <Route path="/photos" component={Photos} />
             </Switch>
           </div>
         </div>
