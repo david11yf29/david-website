@@ -6,6 +6,7 @@ import Sidebar from "./Sidebar/Sidebar";
 import Homepage from "./Homepage/Homepage";
 import Projects from "./Projects/Projects";
 import Blogs from "./Blogs/Blogs";
+import Educations from "./Educations/Educations";
 
 const App = () => {
   return (
@@ -25,6 +26,8 @@ const App = () => {
               <Route path="/projects" component={Projects} />
               {/* Blogs */}
               <Route path="/blogs" component={Blogs} />
+              {/* Educations */}
+              <Route path="/educations" component={Educations} />
             </Switch>
           </div>
         </div>

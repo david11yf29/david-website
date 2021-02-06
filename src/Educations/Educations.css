@@ -1,0 +1,11 @@
+.educations {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.educations__container {
+  height: 80vh;
+  width: 77vw;
+  background-color: aqua;
+}
