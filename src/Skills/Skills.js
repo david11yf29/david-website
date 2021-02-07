@@ -2,7 +2,13 @@ import React from "react";
 import "./Skills.css";
 
 import Header from "../utilities/Header/Header";
-import CustomizedProgressBars from "../utilities/Bar/Bar";
+import ProgressBar from "../utilities/ProgressBar/ProgressBar";
+
+const testData = [
+  { bgcolor: "#CA8F42", completed: 60 },
+  { bgcolor: "#00695c", completed: 30 },
+  { bgcolor: "#ef6c00", completed: 53 },
+];
 
 const Skills = () => {
   return (
@@ -14,31 +20,49 @@ const Skills = () => {
           <h2>Front-End</h2>
           <div className="skills__container__content__bar">
             <p>HTML</p>
-            <CustomizedProgressBars />
+            <ProgressBar className="bar" bgcolor="#00695c" completed="70" />
           </div>
           <div className="skills__container__content__bar">
             <p>CSS</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>JavaScript</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>React</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>Redux</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>Typescript</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>Material-UI</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
         </div>
         {/* Set2 */}
@@ -46,15 +70,24 @@ const Skills = () => {
           <h2>Back-End</h2>
           <div className="skills__container__content__bar">
             <p>Node.js</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>Express.js</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>PostgreSQL</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
         </div>
         {/* Set3 */}
@@ -62,27 +95,45 @@ const Skills = () => {
           <h2>Tool</h2>
           <div className="skills__container__content__bar">
             <p>Git</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>VS Code IDE</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>npm</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>webpack</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>firebase</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
           <div className="skills__container__content__bar">
             <p>Heroku</p>
-            <CustomizedProgressBars />
+            <ProgressBar
+              bgcolor={testData[0].bgcolor}
+              completed={testData[1].completed}
+            />
           </div>
         </div>
       </div>

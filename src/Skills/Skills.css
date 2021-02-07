@@ -17,9 +17,25 @@
   margin: 5% 10%;
 }
 
+.skills__container__content > h2 {
+  font-family: "Poppins", sans-serif;
+}
+
 .skills__container__content__bar {
-  /* background-color: blanchedalmond; */
-  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+  /* background-color: aqua; */
+}
+
+.skills__container__content__bar > p {
+  /* background-color: blueviolet; */
+  font-family: "Poppins", sans-serif;
+}
+
+.bar {
+  /* background-color: brown; */
 }
 
 /* <Header title="Technical Skills" />
