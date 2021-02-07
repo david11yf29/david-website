@@ -1,4 +1,5 @@
 import React from "react";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
 
@@ -26,7 +27,7 @@ const App = () => {
               <Route path="/projects" component={Projects} />
               {/* Blogs */}
               <Route path="/blogs" component={Blogs} />
-              {/* Educations */}
+              {/* Sills */}
               <Route path="/skills" component={Skills} />
             </Switch>
           </div>

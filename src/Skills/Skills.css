@@ -1,12 +1,12 @@
-.educations {
+.skills {
   display: flex;
   flex-direction: column;
-  background-color: white;
 }
 
-.educations__container {
+.skills__container {
   height: 80vh;
   width: 77vw;
-  padding: 10% 0;
-  /* background-color: aqua; */
+  /* padding: 5%; */
+  background-color: aqua;
+  padding: 5% 0;
 }
