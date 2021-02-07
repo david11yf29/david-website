@@ -7,5 +7,6 @@
 .educations__container {
   height: 80vh;
   width: 77vw;
-  background-color: aqua;
+  padding: 10% 0;
+  /* background-color: aqua; */
 }
