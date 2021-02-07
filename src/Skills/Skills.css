@@ -7,6 +7,28 @@
   height: 80vh;
   width: 77vw;
   /* padding: 5%; */
-  background-color: aqua;
-  padding: 5% 0;
+  /* background-color: aqua; */
+  overflow-y: scroll;
 }
+
+.skills__container__content {
+  /* background-color: aquamarine; */
+  box-sizing: border-box;
+  margin: 5% 10%;
+}
+
+.skills__container__content__bar {
+  /* background-color: blanchedalmond; */
+  margin-top: 2%;
+}
+
+/* <Header title="Technical Skills" />
+<div className="skills__container">
+  <div className="skills__container__content">
+    <h2>Language</h2>
+    <div className="skills__container__content__bar">
+      <p>HTML</p>
+      <CustomizedProgressBars />
+    </div>
+  </div>
+</div> */
