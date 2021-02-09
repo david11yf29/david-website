@@ -28,8 +28,8 @@ const Sidebar = () => {
         <Link className="sidebar__content__item" to="/skills">
           <p>Skills</p>
         </Link>
-        <Link className="sidebar__content__item" to="/contact">
-          <p>Contact</p>
+        <Link className="sidebar__content__item" to="/contacts">
+          <p>Contacts</p>
         </Link>
       </div>
       <div className="sidebar__footer">

@@ -8,7 +8,7 @@ import Homepage from "./Homepage/Homepage";
 import Projects from "./Projects/Projects";
 import Blogs from "./Blogs/Blogs";
 import Skills from "./Skills/Skills";
-import Contact from "./Contacts/Contacts";
+import Contacts from "./Contacts/Contacts";
 
 const App = () => {
   return (
