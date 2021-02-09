@@ -20,6 +20,15 @@
   width: 100%;
 }
 
+.contacts__container__content__form {
+  flex: 0.5;
+}
+
+.contacts__container__content__maps {
+  flex: 0.5;
+  height: 100%;
+}
+
 .contacts__container__information {
   background-color: bisque;
   height: 30%;

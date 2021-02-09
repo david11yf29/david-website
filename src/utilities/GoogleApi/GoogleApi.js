@@ -13,7 +13,16 @@ const Maps = () => {
 const WrappedMap = withScriptjs(withGoogleMap(Maps));
 
 const GoogleApi = () => {
-  return <WrappedMap />;
+  return (
+    <div style={{ width: "100%", height: "100%" }}>
+      <WrappedMap
+        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places`}
+        loadingElement={<div style={{ height: "100%" }} />}
+        containerElement={<div style={{ height: "100%" }} />}
+        mapElement={<div style={{ height: "100%" }} />}
+      />
+    </div>
+  );
 };
 
 export default GoogleApi;
