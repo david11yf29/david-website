@@ -80,7 +80,7 @@ const Blogs = () => {
         </div>
       </div>
       <div className="blogs__footer">
-        <Button title="Read More" />
+        <Button title="Read More" width="60vw" />
       </div>
     </div>
   );

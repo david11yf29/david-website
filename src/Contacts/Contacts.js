@@ -4,6 +4,7 @@ import "./Contacts.css";
 import GoogleApi from "../utilities/GoogleApi/GoogleApi";
 
 import Header from "../utilities/Header/Header";
+import Button from "../utilities/Button/Button";
 
 const Contacts = () => {
   return (
@@ -12,7 +13,15 @@ const Contacts = () => {
       <div className="contacts__container">
         <div className="contacts__container__content">
           <div className="contacts__container__content__form">
-            This will be form input
+            <div className="contacts__container__content__form__input">
+              <input placeholder="Your Name" type="text" />
+              <input placeholder="Your Email" type="email" />
+              <input placeholder="Subject" type="text" />
+              <textarea placeholder="Message" type="text" />
+            </div>
+            <div className="contacts__container__content__form__submit">
+              <Button title="Send Message" width="20vw" />
+            </div>
           </div>
           <div className="contacts__container__content__maps">
             <GoogleApi />
