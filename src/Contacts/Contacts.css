@@ -76,4 +76,35 @@ textarea:focus {
   background-color: rgba(0, 0, 0, 0.9);
   height: 25%;
   width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contacts__container__information > h2 {
+  margin-top: 10px;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.contacts__container__information__info {
+  margin-top: 20px;
+  /* background-color: red; */
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts__container__information__info__icon {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+}
+
+.contacts__container__information__info__icon > p {
+  padding-left: 10px;
+  font-size: 0.8em;
 }
