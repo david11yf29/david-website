@@ -28,7 +28,17 @@ const Contacts = () => {
           </div>
         </div>
         <div className="contacts__container__information">
-          This is my information
+          <h2>HAVE A QUESTION?</h2>
+          <div className="contacts__container__information__info">
+            <div className="contacts__container__information__info__icon">
+              <div />
+              <p>1359 West Adams Blvd, Los Angeles, California, USA</p>
+              <div />
+              <p>+886 937 250 024</p>
+              <div />
+              <p>david11yf29@gmail.com</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
