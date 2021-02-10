@@ -107,4 +107,5 @@ textarea:focus {
 .contacts__container__information__info__icon > p {
   padding-left: 10px;
   font-size: 0.8em;
+  letter-spacing: 1px;
 }
