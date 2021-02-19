@@ -13,7 +13,15 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar__header">
         <img src={profilePic} alt="profile" />
-        <p>David Lin</p>
+        <a
+          href="https://www.cakeresume.com/s--B8mpISZkNqDwGSn-hE4P8Q--/david11yf29"
+          target="_blank"
+          rel="noreferrer"
+          alt="Cakeresume"
+        >
+          David Lin
+        </a>
+        {/* <p>David Lin</p> */}
       </div>
       <div className="sidebar__content">
         <Link className="sidebar__content__item" to="/">
